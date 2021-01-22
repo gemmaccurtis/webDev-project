@@ -4,15 +4,17 @@
 2. Install your the latest project dependencies - `npm install` 
 3. Run the project - `npm run start`
 
+# Progress
 
-## Setting up authentication 
+- login and signup page works, implemented GitHub login
+- added Firebase authentication
+- form created and contains different critera needed to be entered by the user 
 
-For this application to work you will need to ensure, one or more, authentication methods are set up. Click authentication from within your firebase application dash.
+# TODO
+- create dashboard to hold the product test cycles that are added by users
+- add in navigation bar design and image background to login screen
+- edit form to allow user to upload an image of product
+- create get function to get results from ATH
+- dev delete button 
+- dev start button to run automation 
 
-## Email & Google 
-
-Enable Email & Google authentication, this is quick and easy and involves no external configuration. 
-
-## Facebook authentication
-
-To enable Facebook authentication you need to set up an external Facebook application. [I have provided a video on how to do this](https://www.youtube.com/watch?v=9ztk1hKmcI0&t=17s), as the gogle documentation seemed patchy.
